@@ -85,7 +85,7 @@ $("#attack").on("click", function() {
 				$("#fighter").empty();
 				fight = false;
 				defeated++;
-				$("#message").text("You have defeated " + enemyName + ", choose anoher enemy.");
+				$("#message").text("You have defeated " + enemyName + ", choose another enemy.");
 				$("#message2").text("");
 			}
 
