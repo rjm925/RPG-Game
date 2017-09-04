@@ -1,6 +1,11 @@
 body {
-	background-image: url("../images/background.png");
+	background-image: url("background.png");
+	background-size: cover;
 	color: #ffffff;
+}
+
+.container{
+	text-align: center;
 }
 
 img {
@@ -30,4 +35,8 @@ img {
 	background-color: black;
 	color: white;
 	border: 2px solid green;
+}
+
+button {
+	color: black;
 }
